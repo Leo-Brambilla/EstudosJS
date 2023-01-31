@@ -1,0 +1,10 @@
+main {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 100%;
+}
