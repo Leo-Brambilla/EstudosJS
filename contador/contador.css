@@ -1,0 +1,14 @@
+main {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+#display {
+    margin: 25px;
+}
