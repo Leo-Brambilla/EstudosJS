@@ -1,0 +1,58 @@
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 36px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: fixed;  
+    margin-left:65px;  
+}
+.bar {
+    width: 35px;
+    height: 4px;
+    margin: 6px 0;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .change .bar:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+  
+  .change .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .change .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+.sidebar {
+    height: 100%;
+    width: 120px;
+    background-color: rgb(165, 157, 157);
+    position: fixed;
+    top: 0;
+    left: -120px;
+    z-index: -1;
+    transition: 0.3s;
+}
+.show-sidebar {
+    left: 0;
+}
+.sidebar nav {
+    padding: 20px;
+}
+.sidebar nav a {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;    
+    color: #333;
+    text-decoration: none;
+}
+
+
