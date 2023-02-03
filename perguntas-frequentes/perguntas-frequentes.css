@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+#faq {
+    width: 80%;
+    margin: 0 auto;
+}
+.question {
+    cursor: pointer;
+}
+.answer {
+    display: none;
+}
+.answer.open {
+    display: block;
+}
